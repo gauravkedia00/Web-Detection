@@ -1,0 +1,15 @@
+Product Set - A container for a group of products with reference images for those products.
+When you query for product images, you must supply the id of the product set to search.
+
+Product - Describes a product. Contains one or more reference images, a product category, and
+optional list of product labels that describe the product. You can add any key/value pair as a label.
+Label examples include color=blue, style=kids.
+
+Reference Image - An image file for a product. The metadata includes a product ID, a category,
+and bounding box details. Reference images must belong to a product.
+
+project id: visualsearch-223211
+location: europe-west1
+productset id: visualtestproduct-201811
+product id1: bookindex-201811
+
